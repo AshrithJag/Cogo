@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cogo.MainActivity"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+     >
+   
+<item android:id="@+id/action_websearch"
+          android:icon="@drawable/action_search"
+          android:title="@string/action_websearch"
+          android:showAsAction="ifRoom|withText" />    
+     
+	
+	<item android:id="@+id/action_notification"
+          android:icon="@drawable/ic_action_social_notifications"
+          android:title="Notification"
+          android:showAsAction="always" />
+	
+	<item android:id="@+id/search"
+      android:icon="@drawable/ic_action_search"
+      android:title="Search        "
+      android:showAsAction="always"
+      android:actionViewClass="android.widget.SearchView"/>
+	
+	
+	<item android:id="@+id/action_GPS"
+          android:title="GPS"
+          android:showAsAction="never" />
+	
+	
+	<item android:id="@+id/action_Wallet"
+          android:title="MyWallet"
+          android:showAsAction="never" />
+	
+	<item android:id="@+id/action_Log"
+          android:title="Logout"
+          android:showAsAction="never" />
+	
+	
+
+</menu>
